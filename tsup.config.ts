@@ -8,7 +8,6 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
-  treeshake: true,
   banner: { js: '"use client "' },
   tsconfig: './tsconfig.build.json'
 });

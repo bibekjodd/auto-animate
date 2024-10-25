@@ -1,6 +1,6 @@
 {
   "name": "@jodd/auto-animate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero config animation library for react apps",
   "author": {
     "name": "bibekjodd",

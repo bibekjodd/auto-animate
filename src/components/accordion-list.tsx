@@ -33,7 +33,7 @@ function Accordion({ title, content }: AccordionProps) {
   return (
     <AutoAnimate
       className="flex flex-col space-y-2 rounded-lg border-2 bg-purple-200 py-2"
-      animationOptions={{ duration: 400, easing: 'ease-out', disrespectUserMotionPreference: true }}
+      animationOptions={{ duration: 200, easing: 'ease-out', disrespectUserMotionPreference: true }}
       // optionally pass the animation options
     >
       <button

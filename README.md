@@ -4,7 +4,7 @@ Zero config animation library for react apps
 
 Try live demo [here](https://jodd-auto-animate.vercel.app)
 
-# Install
+## Install
 
 ```bash
 npm install @jodd/auto-animate
@@ -16,7 +16,7 @@ pnpm install @jodd/auto-animate
 bun install @jodd/auto-animate
 ```
 
-# Usage
+## Usage
 
 ```tsx
 import { useState } from 'react';
@@ -72,6 +72,6 @@ export default function Frameworks() {
 }
 ```
 
-### Credits
+## Credits
 
 - This package uses [Formkit](https://github.com/formkit/auto-animate) under the hood
