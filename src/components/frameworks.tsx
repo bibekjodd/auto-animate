@@ -1,26 +1,5 @@
-# Auto Animate
-
-Zero config animation library for react apps
-
-Try live demo [here](https://jodd-auto-animate.vercel.app)
-
-# Install
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
-
-# Usage
-
-```tsx
 import { useState } from 'react';
-import { AutoAnimate } from '@jodd/auto-animate';
+import { AutoAnimate } from '../lib';
 
 const frameworksList = ['React', 'Svelte', 'Solid', 'Vue', 'Qwik'];
 
@@ -39,8 +18,6 @@ export default function Frameworks() {
   return (
     <div className="flex flex-col space-y-3">
       <h3 className="font-medium">Frameworks</h3>
-
-      {/* let component do the magic */}
       <AutoAnimate animationOptions={{ duration: 400 }}>
         {frameworks.map((framework) => (
           <div key={framework}>⚡{framework}</div>
@@ -70,8 +47,3 @@ export default function Frameworks() {
     </div>
   );
 }
-```
-
-### Credits
-
-- This package uses [Formkit](https://github.com/formkit/auto-animate) under the hood

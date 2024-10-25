@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 src/dist
+*.tsbuildinfo
 
 node_modules
 dist

@@ -1,6 +1,18 @@
 {
   "name": "@jodd/auto-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Zero config animation library for react apps",
+  "author": {
+    "name": "bibekjodd",
+    "email": "bibekjodd@gmail.com",
+    "url": "https://github.com/bibekjodd"
+  },
+  "homepage": "https://jodd-auto-animate.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibekjodd/auto-animate"
+  },
+  "license": "MIT",
   "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.cjs",
@@ -17,11 +29,12 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsup",
+    "build": "tsc -b && vite build",
+    "build:pkg": "tsup",
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build:pkg"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2"
@@ -48,5 +61,10 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.10.0",
     "vite": "^5.4.9"
-  }
+  },
+  "keywords": [
+    "auto-animate",
+    "animation",
+    "react-animation"
+  ]
 }
