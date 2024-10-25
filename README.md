@@ -7,13 +7,13 @@ Try live demo [here](https://jodd-auto-animate.vercel.app)
 # Install
 
 ```bash
-npm install
+npm install @jodd/auto-animate
 # or
-yarn install
+yarn install @jodd/auto-animate
 # or
-pnpm install
+pnpm install @jodd/auto-animate
 # or
-bun install
+bun install @jodd/auto-animate
 ```
 
 # Usage
