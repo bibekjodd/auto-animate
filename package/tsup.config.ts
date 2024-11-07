@@ -9,5 +9,6 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   tsconfig: './tsconfig.json',
-  external: ['react']
+  external: ['react'],
+  banner: { js: '"use client"' }
 });

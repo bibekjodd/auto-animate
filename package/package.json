@@ -1,6 +1,6 @@
 {
   "name": "@jodd/auto-animate",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Zero config animation library for react apps",
   "keywords": [
     "auto-animate",
@@ -38,15 +38,15 @@
     "prepublishOnly": "tsup"
   },
   "dependencies": {
-    "@formkit/auto-animate": "^0.8.2",
-    "tsup": "^8.3.5",
-    "typescript": "^5.6.3"
+    "@formkit/auto-animate": "^0.8.2"
   },
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
   },
   "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
     "@eslint/js": "^9.14.0",
     "@types/react": "~18.3.12",
     "@types/react-dom": "~18.3.1",
